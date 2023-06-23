@@ -27,7 +27,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -117,6 +116,7 @@ header {
 }
 
 .nav-item {
+  padding: 24px 0;
   color: var(--bg-black);
 }
 
@@ -225,6 +225,10 @@ address {
   color: var(--color-text);
 }
 
+.work-section {
+  padding-bottom: 120px;
+}
+
 .work-block {
   display: flex;
   gap: 24px;
@@ -267,11 +271,15 @@ address {
 }
 
 .team-img-list {
+  border-radius: 0px 0px 4px 4px;
   width: calc((100%-3 * 24px) / 4);
   background-color: var(--bg-white);
 }
 
 .title-picture {
+  text-align: center;
+  padding: 32px 16px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -281,6 +289,7 @@ address {
 }
 
 .text-picture {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -326,6 +335,11 @@ footer {
   width: 264px;
   padding-bottom: 100px;
   color: var(--bg-team);
+}
+
+.aside-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio-btn:hover {
