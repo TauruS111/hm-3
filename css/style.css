@@ -426,15 +426,15 @@ img {
 }
 
 img-title-border {
-  border: 1px solid var(--border-color);
-  border-top: none;
   padding: 32px 16px;
+  border-top: none;
+  border: 1px solid var(--border-color);
 }
 
 img-title-bord {
-  border: 1px solid var(--border-color);
+  padding: 32px 16px 32px;
   border-top: none;
-  padding: 32px 16px;
+  border: 1px solid var(--border-color);
 }
 
 .work-img-list {
