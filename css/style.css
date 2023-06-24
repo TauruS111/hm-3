@@ -421,13 +421,13 @@ img {
   height: auto;
 }
 
-img-title-border {
+.img-title-border {
   padding: 32px 16px;
   border-top: 0;
   border: 1px solid #e7e9fc;
 }
 
-img-title-bord {
+.img-title-bord {
   padding: 32px 16px;
   border-top: 0;
   border: 1px solid #e7e9fc;
