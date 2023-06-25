@@ -231,10 +231,6 @@ address {
   color: var(--color-text);
 }
 
-.work-section {
-  padding-bottom: 120px;
-}
-
 .work-block {
   display: flex;
   gap: 24px;
@@ -271,7 +267,7 @@ address {
   color: var(--bg-black);
 }
 .team-section {
-  padding-bottom: 120px;
+  padding: 120px 0;
   background-color: var(--bg-team);
 }
 
