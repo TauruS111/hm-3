@@ -231,6 +231,10 @@ address {
   color: var(--color-text);
 }
 
+.work-section {
+  padding-bottom: 120px;
+}
+
 .work-block {
   display: flex;
   gap: 24px;
